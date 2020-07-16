@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Health Track</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/tela4.css">
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+  <body style="background-color:plum;">
+   <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <img  class="logo-image"
+        src="../images/logo_healthtrack.jpg" alt="Logo Health Track"> 
+    </div>	
+      <div class="col-md-6 mx-auto text-center">
+      </div>
+      <div class="row">
+         <div class="col-md-4 mx-auto">
+            <div class="myform form ">
+               <form action="" method="post" name="login">
+                  
+                <div class="container-fluid">
+
+
+                  <div id="form-outer">
+                      <h4>Por favor, preencha seus dados para que possamos saber mais sobre você:</h4>     
+                      
+                      
+                <br>
+                <form id="nome" method="POST">
+                  <label for="role">Nome</label>
+                <div class="nome">
+                  <input class="input-field" type="text" name="nome" id="text" placeholder="Nome">
+                  </div>
+
+                  <br>
+                  <div class="dropdown">
+                    <form id="genero" method="POST">
+                    <label for="role">Gênero</label>
+                    </div>
+                    <div class="genero">
+                    <select name="role" id="role" class="dropdown">
+                    <option disabled selected value>Escolha</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="outro">Outro</option>
+                    </select>
+                    </div>
+
+                    <br>
+                    <form id="idade" method="POST">
+                      <label for="role">Idade</label>
+                    <div class="idade">
+                      <input class="input-field" type="number" name="idade" id="number" required min="1" max="110" placeholder="Idade">
+                  </div>
+
+                  <br>
+                  <form id="altura" method="POST">
+                    <label for="role">Altura</label>
+                    <div class="label">
+                    </div>
+                    <div class="altura">
+                    <input class="input-field" type="number" name="altura" id="number" required min="120" max="250" placeholder="cm">
+                    </div>
+
+                    <br>
+                    <form id="peso" method="POST">
+                      <label for="role">Peso</label>
+                      <div class="label">
+                      </div>
+                      <div class="peso">
+                      <input class="input-field" type="number" name="peso" id="number" required min="120" max="250" placeholder="kg">
+                      </div>
+
+
+                  <div class="text-center">
+                     <button type="submit" class=" btn btn-block send-button tx-tfm" type="button" onclick="location.href='./tela5_healthTrack.html'">Registrar</button>
+                  </div>
+                 
+                  </p>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  </body>
+</html>
